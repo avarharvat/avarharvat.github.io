@@ -28,4 +28,11 @@
 }
 
 /* Drill 5 - Write your code solution below */
+#d5-container-1 {
+    text-align: center;
 
+}
+.d5-s {
+    display:inline-block;
+    padding:24px;
+}
