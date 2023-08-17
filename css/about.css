@@ -1,0 +1,29 @@
+.content1 img {
+    margin:25px;
+    max-width:200px;
+   
+}
+.content1 {
+    display:inline-block;
+    max-width:25%;
+    margin-right:150px
+
+}
+.header1 {
+    text-align:center;
+}
+.content2 img {
+    margin:25px 25px 25px 25px;
+    max-width:500px;
+}
+
+.content2 p {
+    margin-bottom:100px;
+    margin:25px 25px 25px 25px;
+}
+#paragraph1 {
+   max-width:150px;
+}
+.about-page {
+    background-color:rgba(102, 161, 154, 0.618)
+}
