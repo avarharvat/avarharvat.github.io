@@ -28,12 +28,12 @@
     transform:rotate(5deg)
 }
 .frame-2 div {
-    background-color:cornflowerblue;
+    background-color:#ddd;
     border:0px;
     box-shadow:inset 0px 0px 4px black;
     padding:16px;
 }
-.frame-2 img {
+.frame-2 h3 {
     width: 80px;
     border: 1 px inset;
 }
