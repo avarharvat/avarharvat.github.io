@@ -16,6 +16,7 @@ body {
 }
 #sidebar h2 {
     color:orange;
+    margin-bottom: 20px;
 }
 #sidebar ul {
     list-style-type:none;
