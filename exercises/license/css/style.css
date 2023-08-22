@@ -1,0 +1,74 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    border:2px solid black;
+    padding:10px;
+    border-radius:20px;
+    background-color:rgb(236, 172, 82);
+}
+h1 {
+    color:rgb(22, 22, 133);
+    font-size:50px
+}
+h4 {
+    border:10px solid rgb(22, 22, 133);
+    background-color:rgb(22, 22, 133);
+    text-align:center;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#id-and-expiration div {
+    display:inline-block;
+    padding:10px;
+    color:rgb(22, 22, 133);
+}
+span {
+    color:red;
+}
+#address {
+    font-weight: bold;
+}
+#small-pic {
+    padding:10px 0px 0px 0px;
+}
+#right-side {
+    text-align:right;
+}
+ #data-right, #data-left {
+    display: inline-block;
+    padding:10px;
+}
+#signature {
+    text-align:center; 
+    font-family:cursive;
+}
+#left-side, #right-side {
+    display:inline-block;
+    padding:10px;
+}
+#personal-info, #small-pic, #data-fields {
+    display:inline-block;
+}
+#donor {
+    text-align:center;
+    color:red;
+    padding:10px 10px 0px 10px;
+}
+#real-id, #donor {
+    display:inline-block;
+}
+#real-id {
+    border:2px solid rgb(255, 208, 0);
+    border-radius:100px;
+    background-color:rgb(255, 208, 0);
+    color:white;
+}
+#small-pic {
+    color:rgb(236, 172, 82);
+}
