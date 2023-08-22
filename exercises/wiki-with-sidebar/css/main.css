@@ -26,26 +26,23 @@ h1 {
     flex-direction:column;
     gap:20px;
 }
-.main-content {
-    flex:5;
-}
 h4 {
-    text-align:center;
+    text-decoration:underline;
     margin-top:20px;
 }
 h2 {
-    text-align:center;
     margin-top:20px;
-    text-decoration: underline;
 }
 p {
-    margin:10px 40px 10px 40px;
+    margin:10px 0px 10px 0px;
 }
 #subcategory {
     margin-left:20px;
 }
 img {
     max-width:300px;
+    float:right;
+
 }
 body {
     background-color:lavenderblush;
