@@ -39,6 +39,7 @@ p {
 }
 img {
     max-width:300px;
+    float:right;
 
 }
 .main-content img {
