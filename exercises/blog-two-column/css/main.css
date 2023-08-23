@@ -13,7 +13,7 @@ img {
 #title {
     text-align: center;
     margin: 25px auto;
-    font-size: 8vw;
+    font-size: 100px;
 }
 
 #two-column {
@@ -56,72 +56,85 @@ img {
     font-size: 1.125em;
 }
 
-.main {
+.main-content {
     grid-area: main;
 }
-.main h1 {
+.main-content h1 {
     margin-bottom: 10px;
     font-size: 40px;
 }
-.main .author, .main .date {
+.main-content .author, .main-content .date {
     margin: 10px 0 25px;
     display: inline-block;
     padding-right: 20px;
 }
 
-.main .imgtxt {
+.main-content .paragraph1 {
     display: flex;
     gap: 25px;
     margin-bottom: 25px ;
 }
-.main .imgtxt p {
+.main-content .paragraph1 p {
     flex: 1;
 }
-.main .imgtxt div {
+.main-content .paragraph1 div {
     flex: 2;
 }
 
-.main .dualimg {
+.main-content .landscape-img {
     display: flex;
     margin: 20px 0;
 }
-.main .dualimg div {
+.main-content .landscape-img div {
     flex: 1;
 
 }
-.main .dualimg div:last-child {
+.main-content .landscape-img div:last-child {
     border-right: none;
 }
 
-#about {
-    display: grid;
-    grid-template-columns: 1fr 500px 150px 1fr;
-    grid-template-areas: ". abt abtimg .";
-    gap: 40px;
-    border-top: 2px solid #790037;
-    padding: 25px 0;
-    height: min-content;
-    max-width: 1200px;
-    margin: 25px auto 0;
+h2 {
+    text-align:center;
 }
-#about .content {
-    grid-area: abt;
-    display: flex;
-    flex-flow: column wrap;
-    gap: 15px;
+.paragraph1 p{
+    margin-top:25px;
+    font-size:20px;
 }
-#about .img-contain {
-    grid-area: abtimg;
-    height: 150px;
+.subtitle {
+    font-weight:bold;
 }
-#about .content div {
-    display: flex;
-    gap: 25px;
+.appenzell-list ol{
+    gap:15px;
+    padding:24px;
+    border-top: 3px solid lightsalmon;
+    border-bottom: 3px solid lightsalmon;
 }
-#about a i {
-    font-size: 25px;
-    color: #790037;
+.landcape-img {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:15px;
+    padding:15px;
 }
-#about .img-contain img {
-    object-position: top;
+.content h3 {
+    text-align:center;
+}
+.paragraph2 h3 {
+    border-bottom: 3px solid lightsalmon;
+    padding:15px;
+    gap:15px;
+}
+.paragraph2 p{
+    padding:15px;
+}
+
+.content {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    max-width:500px;
+    padding:15px;
+    gap:15px;
+    margin-left:20%;
+}
+#about h3 {
+    margin-left:21%;
 }
