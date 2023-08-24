@@ -78,7 +78,7 @@ body {
     margin:24px;
 }
 .metube-item:nth-of-type(2) .thumbnail-placeholder {
-    background-image: url(../images/);
+    background-image: url(../images/boat.jpg);
 }
 .metube-item:nth-of-type(3) .thumbnail-placeholder {
     background-image: url(../images/hot-chocolate.jpg);
