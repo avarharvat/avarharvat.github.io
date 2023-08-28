@@ -61,3 +61,19 @@ body {
     font-size: 24px;
     margin: 24px 0px 0px;
 }
+.comparisons-layout-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:#323342;
+    color:white;
+    padding: 15px;
+}
+.comparisons-layout-3 div {
+    padding: 24px;
+    font-size: 24px;
+    border-bottom: 3px solid #CCC5BB;
+}
+.comparisons-container h3 {
+    text-align:center;
+    font-size: 28px;
+}
