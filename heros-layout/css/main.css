@@ -102,8 +102,8 @@ body {
 #hero-3 a {
     font-size: 1.5vw;
     display: inline-block;
-    background-color: white;
-    color: #333333;
+    background-color: #333333;
+    color: white;
     text-decoration: none;
     padding: 24px;
     margin: 5vh 2vw 10vh;
