@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("../images/background.jpg");
 }
 #hero {
     background-image: url("../images/graphicdesignhero.jpg");
@@ -14,17 +15,19 @@ body {
     flex-direction: column; 
     justify-content: center; 
     align-items: flex-end;
+
 }
 
 #hero h2 {
     font-size: 8vw;
-    margin-bottom: 5vh;
+    margin-bottom: 4vh;
     margin-right: 5vw;
 }
 
 #hero h4 {
     font-size: 3vw;
     margin: 0px 5vw 0px 0px;
+    margin-top: 5vw;
 }
 
 #hero a {
@@ -41,16 +44,18 @@ body {
 }
 #sidebar a {
     text-decoration: none;
-    border: 3px solid #333333;
-    background-color: #333333;
-    padding: 5px;
+    padding: 7px;
     color: white;
+    margin-left: 25px;
 }
 #sidebar {
     display: grid;
+    font-size: 20px;
+
 }
 h1 {
     font-size: 5vw;
+    color: white;
 }
 #card-section {
     background-color: #333333;
@@ -65,7 +70,7 @@ h1 {
 
 .card {
     flex: 1;
-    border: 3px solid yellow;
+    border: 3px solid rgb(255, 242, 0);
     padding: 36px;
     text-align: center;
     margin: 36px;
@@ -84,5 +89,17 @@ h1 {
     text-decoration: none;
     color: white;
 }
-
+#hero h2 {
+    text-align: right;
+}
+.spacer {
+    background-image: url("../images/background.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
 

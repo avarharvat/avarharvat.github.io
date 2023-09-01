@@ -4,12 +4,12 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("../images/background.jpg");
 }
 
 #layout {
     max-width: 900px;
     margin: 48px auto;
-    text-align:center;
 }
 .gallery {
     columns: 3 auto;
@@ -19,34 +19,22 @@ body {
     width: 100%;
     margin-bottom: 1rem;
 }
-
-
-body {
-    background-color:#333;
-}
 #layout h2 {
-    color: white;
     margin-bottom: 48px;
     font-size: 3vw;
+    color: white;
 }
 a {
     text-decoration: none;
     color: white;
 }
 h1 {
-    color:white;
-}
-
-#sidebar a {
-    text-decoration: none;
-    border: 3px solid #333333;
-    background-color: #333333;
-    padding: 5px;
+    font-size: 5vw;
+    padding:15px;
     color: white;
 }
-#sidebar {
-    display: grid;
-}
-h1 {
-    font-size: 5vw;
+
+#sidebar-content ul {
+   list-style-type: none;
+   font-size: 20px;
 }
