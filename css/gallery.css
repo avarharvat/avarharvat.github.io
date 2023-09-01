@@ -1,0 +1,52 @@
+* {
+    box-sizing:border-box
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout {
+    max-width: 900px;
+    margin: 48px auto;
+    text-align:center;
+}
+.gallery {
+    columns: 3 auto;
+
+}
+.gallery img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+body {
+    background-color:#333;
+}
+#layout h2 {
+    color: white;
+    margin-bottom: 48px;
+    font-size: 3vw;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    color:white;
+}
+
+#sidebar a {
+    text-decoration: none;
+    border: 3px solid #333333;
+    background-color: #333333;
+    padding: 5px;
+    color: white;
+}
+#sidebar {
+    display: grid;
+}
+h1 {
+    font-size: 5vw;
+}
