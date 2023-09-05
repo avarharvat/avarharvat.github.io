@@ -20,6 +20,7 @@ body {
     font-size: 28px;
     margin-right: auto;
     margin-top: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 #navbar2 {
     background: linear-gradient(to bottom, rgba(255, 217, 0, 0.84), orange);
@@ -36,6 +37,7 @@ body {
 
 #navbar2 #logo2 {
     font-size: 28px;
+    font-family:monospace
 }
 
 #navbar2 .cta-buttom {
@@ -76,6 +78,7 @@ body {
 #navbar-bottom .content-column {
     display: flex;
     justify-content: space-between;
+    padding: 24px;
 }
 #navbar-bottom a {
     text-decoration: none;
@@ -88,7 +91,7 @@ body {
 
 #navbar-middle .content-column {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
 }
 #navbar-middle a {
     text-decoration: none;
@@ -107,7 +110,20 @@ body {
     margin: 24px;
 }
 #navbar-middle #logo {
-    font-size: 28px;
+    font-size: 40px;
     padding: 24px;
+    font-family:cursive;
+    margin-right: 24px;
 
+}
+#navbar-middle .cta-buttom {
+    background-color: white;
+    color: orange;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 15px;
+    text-align: center;
+    margin-right: 2px;
 }
