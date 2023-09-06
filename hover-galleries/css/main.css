@@ -146,3 +146,294 @@ body {
     opacity: 0;
     visibility: hidden;
 }
+#cards-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 24px;
+
+}
+#card5 {
+    position: relative;
+    background-image: url(../images/movie-out-soon.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin: 100px;
+}
+
+#card5 .card-content {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 4px 4px 4px #00000033;
+    border-radius: 12px;
+    left: 0px;
+    margin: 40px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 1s,
+        visibility 1s,
+        transform 1s;
+}
+
+#card5:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+#card6 {
+    position: relative;
+    background-image: url(../images/movie.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin: 100px;
+}
+
+#card6 .card-content {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 4px 4px 4px #00000033;
+    border-radius: 12px;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 1s,
+        visibility 1s,
+        transform 1s;
+}
+
+#card6:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+#card7 {
+    position: relative;
+    background-image: url(../images/tickets2.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin: 100px;
+}
+
+#card7 .card-content {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 4px 4px 4px #00000033;
+    border-radius: 12px;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 1s,
+        visibility 1s,
+        transform 1s;
+}
+
+#card7:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+#card8 {
+    position: relative;
+    background-image: url(../images/popcorn.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin: 100px;
+}
+
+#card8 .card-content {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 4px 4px 4px #00000033;
+    border-radius: 12px;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-5px);
+    transition:
+        opacity 1s,
+        visibility 1s,
+        transform 1s;
+}
+
+#card8:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+#card9 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+
+#card9 .card-front, #card9 .card-back {
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+#card9 .card-back {
+    transform: scaleX(0);
+}
+
+#card9 .card-front {
+    background-image: url(../images/skull.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card9 .card-front {
+    transition: transform 0.25s;
+}
+#card9 .card-back {
+    transition: transform 0.25s 0.25s;
+}
+#card9:hover .card-front {
+    transform: scaleX(0);
+}
+#card9:hover .card-back {
+    transform: scaleX(1);
+}
+#card10 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+
+#card10 .card-front, #card10 .card-back {
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+#card10 .card-back {
+    transform: scaleX(0);
+}
+
+#card10 .card-front {
+    background-image: url(../images/skull.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card10 .card-front {
+    transition: transform 0.25s;
+}
+#card10 .card-back {
+    transition: transform 0.25s 0.25s;
+}
+#card10:hover .card-front {
+    transform: scaleX(0);
+}
+#card10:hover .card-back {
+    transform: scaleX(1);
+}
+#card11 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+
+#card11 .card-front, #card11 .card-back {
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+#card11 .card-back {
+    transform: scaleX(0);
+}
+
+#card11 .card-front {
+    background-image: url(../images/skull.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card11 .card-front {
+    transition: transform 0.25s;
+}
+#card11 .card-back {
+    transition: transform 0.25s 0.25s;
+}
+#card11:hover .card-front {
+    transform: scaleX(0);
+}
+#card11:hover .card-back {
+    transform: scaleX(1);
+}
+#card12 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+
+#card12 .card-front, #card12 .card-back {
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+#card12 .card-back {
+    transform: scaleX(0);
+}
+
+#card12 .card-front {
+    background-image: url(../images/skull.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card12 .card-front {
+    transition: transform 0.25s;
+}
+#card12 .card-back {
+    transition: transform 0.25s 0.25s;
+}
+#card12:hover .card-front {
+    transform: scaleX(0);
+}
+#card12:hover .card-back {
+    transform: scaleX(1);
+}
