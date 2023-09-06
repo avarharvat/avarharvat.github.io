@@ -22,129 +22,109 @@ body {
 
 .card a {
     text-decoration: none;
+    background-color: white;
     color: black;
     display: block;
     border: 2px solid black;
     border-radius: 20px;
     padding: 10px;
-    margin-top: 350px;
+    margin: 300px 100px 24px 100px
 }
-
 #card1 {
-    background-color:rgb(234, 213, 222);
-    max-width: 300px;
-    transition:
-        background-color 0.5s,
-        box-shadow 0.5s,
-        transform 0.5s;
-}
-#card1:hover {
-    box-shadow: 4px 4px 4px #00000033;
-    transform: translateY(-4px);
-    background-image: url(../images/macaroons.jpg);
-    height: 50vh;
-    background-size: cover;
-    background-position: center center;
     position: relative;
-    max-width: 300px;
-    
-}
-#card1 .card-content {
-    transition: 
-        opacity 0.5s,
-        visibility 0.5s;
-}
-
-#card1:hover .card-content {
-    opacity: 0;
-    visibility: hidden;
-}
-#card2 {
-    max-width: 300px;
-    background-color:honeydew;
-    transition:
-        background-color 0.5s,
-        box-shadow 0.5s,
-        transform 0.5s;
-}
-#card2:hover {
-    box-shadow: 4px 4px 4px #00000033;
-    transform: translateY(-4px);
-    background-image: url(../images/tart.jpg);
-    height: 50vh;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    max-width: 300px;
-    
-}
-#card2 .card-content {
-    transition: 
-        opacity 0.5s,
-        visibility 0.5s;
-}
-
-#card2:hover .card-content {
-    opacity: 0;
-    visibility: hidden;
-}
-#card3 {
-    max-width: 300px;
-    background-color:rgb(201, 233, 245);
-    transition:
-        background-color 0.5s,
-        box-shadow 0.5s,
-        transform 0.5s;
-}
-#card3:hover {
-    box-shadow: 4px 4px 4px #00000033;
-    transform: translateY(-4px);
     background-image: url(../images/cupcake.jpg);
     height: 50vh;
     background-size: cover;
     background-position: center center;
     position: relative;
-    max-width: 300px;
-    
-}
-#card3 .card-content {
-    transition: 
-        opacity 0.5s,
-        visibility 0.5s;
 }
 
-#card3:hover .card-content {
-    opacity: 0;
+#card1 .card-content {
     visibility: hidden;
-}
-#card4 {
-    max-width: 300px;
-    background-color:rgb(201, 245, 224);
+    opacity: 0;
+    transform: translateY(-8px);
     transition:
-        background-color 0.5s,
-        box-shadow 0.5s,
-        transform 0.5s;
+        visibility 1s,
+        opacity 1s,
+        transform 1s;
 }
-#card4:hover {
-    box-shadow: 4px 4px 4px #00000033;
-    transform: translateY(-4px);
-    background-image: url(../images/donuts.jpg);
+
+#card1:hover .card-content {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+#card2 {
+    position: relative;
+    background-image: url(../images/macaroons.jpg);
     height: 50vh;
     background-size: cover;
     background-position: center center;
     position: relative;
-    max-width: 300px;
-    
 }
+
+#card2 .card-content {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-8px);
+    transition:
+        visibility 1s,
+        opacity 1s,
+        transform 1s;
+}
+
+#card2:hover .card-content {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+#card3 {
+    position: relative;
+    background-image: url(../images/donuts.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+
+#card3 .card-content {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-8px);
+    transition:
+        visibility 1s,
+        opacity 1s,
+        transform 1s;
+}
+
+#card3:hover .card-content {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+#card4 {
+    position: relative;
+    background-image: url(../images/tart.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+
 #card4 .card-content {
-    transition: 
-        opacity 0.5s,
-        visibility 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-8px);
+    transition:
+        visibility 1s,
+        opacity 1s,
+        transform 1s;
 }
 
 #card4:hover .card-content {
-    opacity: 0;
-    visibility: hidden;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
 }
 #cards-container2 {
     display: flex;
@@ -302,7 +282,7 @@ body {
 }
 
 #card9 .card-front {
-    background-image: url(../images/skull.jpg);
+    background-image: url(../images/buzz.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 12px;
@@ -340,7 +320,7 @@ body {
 }
 
 #card10 .card-front {
-    background-image: url(../images/skull.jpg);
+    background-image: url(../images/forky.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 12px;
@@ -378,7 +358,7 @@ body {
 }
 
 #card11 .card-front {
-    background-image: url(../images/skull.jpg);
+    background-image: url(../images/toystory.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 12px;
@@ -416,7 +396,7 @@ body {
 }
 
 #card12 .card-front {
-    background-image: url(../images/skull.jpg);
+    background-image: url(../images/toy-story-2.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 12px;
