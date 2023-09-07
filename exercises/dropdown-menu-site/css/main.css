@@ -61,28 +61,38 @@ body {
     background: slateblue;
 }
 #hero {
-    background-image: url("../images/dog-hero.jpg");
+    background-image: url("../images/hero2.jpg");
     height: 100vh;
     background-size: cover;
-    background-position: bottom right;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: flex-end;
+    background-position: right right;
+    position: relative;
 }
 
 #hero .hero-content {
-    text-align: right;
-    color: black;
-    padding: 5vh 8vw;
+    position: absolute;
+    top: 10%;
+    left: 5%;
 }
 
 #hero h2 {
-    font-size: 6vw;
-    margin-bottom: 3vh;
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
 }
 
 #hero h4 {
     font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
 }
 #homepginfo {
     text-align:center;
