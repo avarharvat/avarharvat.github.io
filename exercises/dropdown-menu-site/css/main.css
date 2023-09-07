@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar {
+    background-color:lemonchiffon;
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#navbar a:hover {
+    background-color:burlywood;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+    z-index: 10;
+}
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: lavender;
+    color: white;
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .dropdown-menu a:hover {
+    background: slateblue;
+}
+#hero {
+    background-image: url("../images/dog-hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom right;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hero .hero-content {
+    text-align: right;
+    color: black;
+    padding: 5vh 8vw;
+}
+
+#hero h2 {
+    font-size: 6vw;
+    margin-bottom: 3vh;
+}
+
+#hero h4 {
+    font-size: 3vw;
+}
+#homepginfo {
+    text-align:center;
+    border: 2px solid black;
+    padding: 24px;
+    margin: 24px;
+    background-color: lavender
+}
+#petinfo img {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
