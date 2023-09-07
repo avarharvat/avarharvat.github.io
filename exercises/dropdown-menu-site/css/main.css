@@ -89,7 +89,7 @@ body {
     border: 2px solid black;
     padding: 24px;
     margin: 24px;
-    background-color: lavender
+    background-color: lavender;
 }
 #petinfo img {
     max-width: 400px;
@@ -103,7 +103,11 @@ body {
 h1 {
     text-align: center;
 }
-p {
+#petinfo p {
     max-width: 500px;
     margin-top: 48px;
 }
+span {
+    font-size: 24px;
+}
+
