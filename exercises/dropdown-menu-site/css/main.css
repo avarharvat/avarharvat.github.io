@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: lavender
 }
 #navbar {
     background-color:lemonchiffon;
@@ -92,6 +93,17 @@ body {
 }
 #petinfo img {
     max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 48px;
+}
+#petinfo {
+    display: flex;
+    padding: 24px;
+
+}
+h1 {
+    text-align: center;
+}
+p {
+    max-width: 500px;
+    margin-top: 48px;
 }
