@@ -27,3 +27,27 @@
     max-width:100px;
     font-size:20px;
 }
+#navbar {
+    background-color: rgb(77, 77, 170);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar #logo img {
+    width: 50px;
+}
+#navbar a:hover {
+    color: rgb(77, 77, 170);
+    background-color: white;
+    transition-duration: 1s;
+}
