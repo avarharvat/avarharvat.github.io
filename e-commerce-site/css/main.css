@@ -24,6 +24,9 @@ body {
 #navbar-top {
     background-color: white;
 }
+#navbar-top h1 {
+    font-size: 35px;
+}
 
 #navbar-top a {
     text-decoration: none;
@@ -86,7 +89,7 @@ body {
 }
 
 #hero-4 h2 {
-    font-size: 8vw;
+    font-size: 6vw;
     margin-bottom: 5vh;
     margin-right: 5vw;
 }
@@ -134,4 +137,28 @@ img:hover {
 #layout a {
     text-decoration: none;
     color: black;
+}
+#card-section {
+    background-color: #5b00ed;
+    color: #bfefff;
+    padding: 48px;
+    margin: 24px;
+    margin-left: 24px
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    margin-left: 15px;
+}
+.card img {
+    border: 0px solid black;
+    border-radius: 100%;
+    max-width: 150px;
 }
