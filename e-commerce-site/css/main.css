@@ -117,12 +117,12 @@ body {
     margin: 0px auto;
 }
 #layout {
-    max-width: 800px;
     margin: 48px auto;
     text-align: center;
 }
 #layout {
-    columns: 4 auto;
+    columns: 3 auto;
+    margin: 35px;
     
 
 }
@@ -132,11 +132,22 @@ body {
 }
 img:hover {
     opacity: 50%;
+    transition: .5s;
 
 }
-#layout a {
+.horizontal-masonry-gallery h1 {
+    padding: 24px;
+    text-align: left;
+    font-size: 48px;
+    display: inline-block;
+}
+.horizontal-masonry-gallery a {
     text-decoration: none;
-    color: black;
+    color: white;
+    background-color: indigo;
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
 }
 #card-section {
     background-color: #5b00ed;
@@ -161,4 +172,37 @@ img:hover {
     border: 0px solid black;
     border-radius: 100%;
     max-width: 150px;
+}
+#layout2 {
+    margin: 48px auto;
+    text-align: center;
+}
+#layout2 {
+    columns: 3 auto;
+    margin: 35px;
+    
+
+}
+#layout2 img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+img:hover {
+    opacity: 50%;
+    transition: .5s;
+
+}
+.horizontal-masonry-gallery2 h1 {
+    padding: 24px;
+    text-align: left;
+    font-size: 48px;
+    display: inline-block;
+}
+.horizontal-masonry-gallery2 a {
+    text-decoration: none;
+    color: white;
+    background-color: indigo;
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
 }
