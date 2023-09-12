@@ -25,7 +25,7 @@ body {
     background-color: white;
 }
 #navbar-top h1 {
-    font-size: 35px;
+    font-size: 55px;
 }
 
 #navbar-top a {
@@ -138,7 +138,7 @@ img:hover {
 .horizontal-masonry-gallery h1 {
     padding: 24px;
     text-align: left;
-    font-size: 48px;
+    font-size: 6vw;
     display: inline-block;
 }
 .horizontal-masonry-gallery a {
@@ -206,3 +206,71 @@ img:hover {
     padding: 15px;
     margin: 15px;
 }
+#footer {
+    background: linear-gradient(to bottom, rgb(108, 66, 139), indigo);
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+}
+
+
+@media screen and (max-width: 1000px) and (min-width:801px){
+    #navbar-top {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar-top h1 {
+        font-size: 45px;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+   
+    #search-bar {
+        display: none;
+    }
+    #navbar-top {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar-bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar-top h1 {
+        font-size: 30px;
+    }
+    #header {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    #layout, #layout2 {
+        columns:2;
+    }
+}
+
