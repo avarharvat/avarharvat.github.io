@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+#navbar-top {
+    background-color: white;
+}
+
+#navbar-top a {
+    text-decoration: none;
+    color: indigo;
+    padding: 24px 0px;
+}
+
+#navbar-top .content-column div a {
+    padding: 10px;
+}
+
+#navbar-top .cta-buttom {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 15px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, rgb(108, 66, 139), indigo);
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
+#search-bar {
+    background-color: #d4d4d4;
+    border: 0px;
+    width: 200px;
+    height: 35px;
+    margin-top: 12px;
+    border-radius: 24px;
+    margin: 24px;
+    padding: 10px;
+    font-size: 15px;
+}
+#hero-4 {
+    background-image: url("../images/pumpkins.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero-4 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero-4 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-4 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-4 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+.content1 h1 {
+    text-align: center;
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+#layout {
+    columns: 4 auto;
+    
+
+}
+#layout img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+img:hover {
+    opacity: 50%;
+
+}
+#layout a {
+    text-decoration: none;
+    color: black;
+}
