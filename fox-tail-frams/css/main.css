@@ -4,7 +4,7 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: montserrat;
 }
 #navbar {
     background-color:black;
@@ -23,25 +23,50 @@ body {
 }
 
 #navbar #logo img {
-    width: 150px;
+    width: 200px;
 }
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 24px;
-    justify-content: center;
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
 }
 
-.grid img {
-    width: 250px;
-    margin: 24px;
-    margin-bottom: 48px;
+#card-section {
+    background-color: #5b00ed;
+    color: #bfefff;
+    padding: 48px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-container img {
+    max-width: 250px;
+}
+.card {
+    flex: 1;
+    border: 3px solid #E1A177;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+.card h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
 }
 #market-content p {
     padding: 48px;
 }
 #market-content h1 {
     padding: 15px;
+    font-family: lobster;
+    font-size: 48px;
 }
 #market-content {
     max-width: 1200px;
