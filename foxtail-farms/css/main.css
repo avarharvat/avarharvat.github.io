@@ -152,15 +152,15 @@ body {
     font-size: 12px;
     margin: 24px 0px 0px;
 }
-.card2 h4 {
+.card2 a {
     font-size: 15px;
-    margin: 24px;
     border: 2px solid black;
     border-radius: 24px;
     background-color: black;
     color: white;
     text-align:center;
     padding: 5px;
+    text-decoration: none;
 }
 .card2 img {
     max-width: 200px;
@@ -179,14 +179,14 @@ body {
     max-width: 400px;
     padding: 48px;
 }
-.grid-1 h4 {
+.grid-1 a {
     border: 2px solid #E1A177;
-    max-width: 150px;
     text-align: center;
     border-radius: 24px;
     background-color:#E1A177;
     color: white;
     padding: 5px;
+    text-decoration: none;
 }
 #foxtale h3  {
     font-size: 36px;
