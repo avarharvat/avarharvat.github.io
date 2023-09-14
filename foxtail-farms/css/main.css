@@ -163,7 +163,7 @@ body {
     padding: 5px;
 }
 .card2 img {
-    max-width: 100px;
+    max-width: 200px;
 }
 #technology h2 {
     text-align: center;
@@ -176,7 +176,7 @@ body {
     border-bottom: 4px solid #E1A177;
 }
 #foxtale img {
-    max-width: 300px;
+    max-width: 400px;
     padding: 48px;
 }
 .grid-1 h4 {
