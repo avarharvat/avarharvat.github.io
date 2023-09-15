@@ -162,3 +162,38 @@ body {
     padding: 8px 0px;
     max-width: 200px;
 }
+
+
+@media screen and (min-width: 400px) and (max-width:800px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+    #navbar #logo{
+        align-items: center;
+        margin: 0px;
+    }
+    #navbar .cta-buttom {
+        margin: 0px;
+    }
+    #content1 {
+        display: block;
+    }
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card {
+        margin: 0px;
+    }
+    #footer .links{
+        visibility: hidden;
+    }
+    #footer-navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+}
