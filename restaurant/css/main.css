@@ -4,7 +4,7 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Athelas;
 }
 #navbar {
     display: flex;
@@ -56,6 +56,7 @@ body {
 #hero h2 {
     font-size: 6vw;
     margin-bottom: 5vh;
+    font-family: copperplate;
 }
 
 #hero h4 {
@@ -90,8 +91,8 @@ body {
     margin: 48px;
 }
 #card-section {
-    background-color: #383E4C;
-    color: #818899;
+    background-color: #818899;
+    color: white;
     padding: 48px;
 }
 .card-container {
@@ -100,7 +101,6 @@ body {
 }
 .card {
     flex: 1;
-    border: 3px solid #818899;
     padding: 24px;
     text-align: center;
     margin: 36px;
@@ -128,7 +128,7 @@ body {
     padding: 5px;
 }
 #footer {
-    background: linear-gradient(to bottom, teal, #01482e);
+    background-color: #383E4C;
     color: white;
     padding: 12px;
 }
@@ -156,4 +156,9 @@ body {
 #footer-columns-navbar a {
     display: block;
     padding: 8px 0px;
+}
+#footer-columns-navbar p {
+    display: block;
+    padding: 8px 0px;
+    max-width: 200px;
 }
