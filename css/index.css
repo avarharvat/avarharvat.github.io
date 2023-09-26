@@ -111,14 +111,14 @@ h1 {
     color:#333;
 }
 #navbar {
-    background-color: rgb(77, 77, 170);
+    background-color: white;
     display: flex;
     align-items: center;
 }
 
 #navbar a {
     text-decoration: none;
-    color: white;
+    color: #333;
     padding: 24px;
 }
 
@@ -126,12 +126,11 @@ h1 {
     margin-right: auto;
 }
 
-#navbar #logo img {
-    width: 50px;
+#navbar #logo  {
+    font-size: 24px;
 }
 #navbar a:hover {
     color: rgb(77, 77, 170);
-    background-color: white;
     transition-duration: 1s;
 }
 
