@@ -49,10 +49,14 @@ img {
 .content1 h2 {
     font-size: 30px;
 }
+.content1 h4 {
+    font-size: 18px;
+}
 p {
     display: inline-block;
     padding: 15px;
     margin-bottom: 36px;
+    font-size: 18px;
 }
 @media screen and (min-width: 400px) and (max-width:900px) {
     .content1 h3 {
@@ -64,5 +68,8 @@ p {
     }
     .content1 h2 {
         font-size: 24px;
+    }
+    .content1 h4 {
+        font-size: 15px;
     }
 }
