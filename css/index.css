@@ -17,7 +17,7 @@ body {
 }
 
 #hero h2 {
-    font-size: 7vw;
+    font-size: 6vw;
     margin-bottom: 4vh;
     margin-left: 5vw;
     font-family: big caslon medium;
@@ -37,7 +37,7 @@ body {
     border-radius: 48px;
     color: white;
     text-decoration: none;
-    padding: 24px;
+    padding: 18px;
     margin: 5vh 5vw 20vh 30px;
     max-width: 20vw;
     text-align: center;
