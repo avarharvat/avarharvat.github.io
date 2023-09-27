@@ -4,29 +4,27 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url("../images/background.jpg");
 }
 #hero {
-    background-image: url("../images/graphicdesignhero.jpg");
+    background-image: url("../images/sincerely-media-HoEYgBL_Gcs-unsplash.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
-    align-items: flex-end;
 
 }
 
 #hero h2 {
-    font-size: 8vw;
+    font-size: 7vw;
     margin-bottom: 4vh;
-    margin-right: 5vw;
+    margin-left: 5vw;
 }
 
 #hero h4 {
     font-size: 3vw;
-    margin: 0px 5vw 0px 0px;
+    margin: 0px 0vw 5px 30px;
     margin-top: 5vw;
 }
 
@@ -37,7 +35,9 @@ body {
     color: white;
     text-decoration: none;
     padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
+    margin: 5vh 5vw 20vh 30px;
+    max-width: 20vw;
+    text-align: center;
 }
 .spacer {
     height: 100vh;
@@ -88,9 +88,6 @@ h1 {
 .card a {
     text-decoration: none;
     color: white;
-}
-#hero h2 {
-    text-align: right;
 }
 .spacer {
     background-image: url("../images/background.jpg");
