@@ -34,6 +34,7 @@ body {
     display: inline-block;
     background-color: chocolate;
     border: 2px solid chocolate;
+    border-radius: 48px;
     color: white;
     text-decoration: none;
     padding: 24px;
