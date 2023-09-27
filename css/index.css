@@ -3,7 +3,7 @@
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: athelas;
 }
 #hero {
     background-image: url("../images/sincerely-media-HoEYgBL_Gcs-unsplash.jpg");
@@ -20,6 +20,7 @@ body {
     font-size: 7vw;
     margin-bottom: 4vh;
     margin-left: 5vw;
+    font-family: big caslon medium;
 }
 
 #hero h4 {
@@ -31,13 +32,20 @@ body {
 #hero a {
     font-size: 1.5vw;
     display: inline-block;
-    background-color: #333333;
+    background-color: chocolate;
+    border: 2px solid chocolate;
     color: white;
     text-decoration: none;
     padding: 24px;
     margin: 5vh 5vw 20vh 30px;
     max-width: 20vw;
     text-align: center;
+}
+#hero a:hover {
+    border: 2px solid chocolate;
+    background-color: white;
+    color: black;
+    transition: .5s;
 }
 .spacer {
     height: 100vh;
@@ -65,15 +73,17 @@ h1 {
 
 .card-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .card {
     flex: 1;
-    border: 3px solid rgb(255, 242, 0);
+    border: 3px solid #aaa;
     padding: 36px;
     text-align: center;
     margin: 36px;
+    max-width: 200px;
 }
 
 .card h3 {
@@ -90,8 +100,8 @@ h1 {
     color: white;
 }
 .spacer {
-    background-image: url("../images/background.jpg");
-    height: 50vh;
+    background-color: #333;
+    height: 60vh;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -99,13 +109,10 @@ h1 {
     justify-content: center; 
     align-items: center;
 }
-.card:hover{
-    background-color: rgb(255, 242, 0);
-    color: #333;
-    transition-delay: .5s;
-}
+
 .card a:hover {
-    color:#333;
+    color:chocolate;
+    transition: .5s;
 }
 #navbar {
     background-color: white;
@@ -130,15 +137,82 @@ h1 {
     color: rgb(77, 77, 170);
     transition-duration: 1s;
 }
-
-
-
-
-
-
-@media screen and (max-width: 500px) and (min-width: 420px) {
+#layout {
+    max-width: 900px;
+    margin: 48px auto;
+}
+.gallery {
+    columns: 3 auto;
 
 }
-@media screen and (max-width: 900px) and (min-width: 481px) {
+.gallery img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+#layout h2 {
+    margin-bottom: 48px;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+#footer {
+    background: chocolate;
+    color: white;
+    padding: 12px;
+}
 
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
+
+
+
+@media screen and (max-width: 900px) and (min-width: 480px) {
+    #hero a {
+        padding: 10px;
+        font-size: 2vw;
+    }
+    .card-container {
+        justify-content: center;
+    }
+    .gallery {
+        columns: 1 auto;
+        margin-left: 50px;
+    }
+    .gallery img {
+        width: 50%;
+    }
+    #layout h2 {
+        margin-top: 200px;
+        text-align: left;
+        margin-left: 40px;
+
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+    #navbar #logo{
+        align-items: center;
+        margin: 0px;
+    }
+    #footer-navbar {
+        display: flex;
+        flex-direction: column;
+    }
+   
 }
