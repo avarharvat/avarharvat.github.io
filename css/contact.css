@@ -103,15 +103,16 @@ body {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 900px) and (min-width: 400px) {
+@media screen and (max-width: 900px) and (min-width: 480px) {
    
     #footer-navbar {
         display: flex;
         flex-direction: column;
     }
-    #column2 {
-        flex-direction: column;
-        justify-content:flex-start;
+    
+    .paragraph {
+        max-width: 300px;
+        justify-content: center;
     }
-   
+  
 }
