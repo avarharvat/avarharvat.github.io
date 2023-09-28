@@ -202,15 +202,7 @@ h1 {
         margin-left: 40px;
 
     }
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 24px;
-    }
-    #navbar #logo{
-        align-items: center;
-        margin: 0px;
-    }
+   
     #footer-navbar {
         display: flex;
         flex-direction: column;

@@ -139,15 +139,7 @@ h3 {
     font-size: 24px;
 }
 @media screen and (max-width: 900px) and (min-width: 480px) {
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 24px;
-    }
-    #navbar #logo{
-        align-items: center;
-        margin: 0px;
-    }
+   
     #footer-navbar {
         display: flex;
         flex-direction: column;

@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: athelas;
+    background-color: #333;
 }
 #navbar {
     background-color: white;
@@ -27,11 +28,90 @@ body {
     transition-duration: 1s;
 }
 #hero-4 {
-    background-image: url("../images/markus-winkler-q3QPw37J6Xs-unsplash.jpg");
-    height: 60vh;
+    background-image: url("../images/kaleb-tapp-J59wWPn09BE-unsplash.jpg");
+    height: 50vh;
     background-size: cover;
     background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#content1 {
+    text-align: center;
+    margin: 50px;
+    color: white;
+
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+}
+#content2 {
+    margin-left: 50px;
+    margin-top: 100px;
+    color: white;
+}
+#message {
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+ #content2 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+#content2 img {
+    margin-left: 50px;
+    max-width: 400px;
+    margin-bottom: 25px;
+    max-height: 400px;
+}
+#footer {
+    background: chocolate;
+    color: white;
+    padding: 12px;
+}
+.a a {
+    display: block;
+    text-decoration: none;
+    border: 2px solid chocolate;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+    border-radius: 24px;
+    padding: 5px;
+    margin-bottom: 24px;
+}
+.a a:hover {
+    background-color: chocolate;
+    color: white;
+    transition: .5s;
+
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) and (min-width: 480px) {
+   
+    #footer-navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    #column2 {
+        flex-direction: column;
+        justify-content:flex-start;
+    }
+   
 }
