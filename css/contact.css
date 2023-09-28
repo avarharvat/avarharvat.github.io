@@ -26,3 +26,12 @@ body {
     background-color: white;
     transition-duration: 1s;
 }
+#hero-4 {
+    background-image: url("../images/markus-winkler-q3QPw37J6Xs-unsplash.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
